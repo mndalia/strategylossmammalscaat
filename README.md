@@ -1,18 +1,3 @@
----
-title: Investigando a perda de estratégias ecológicas causada pela caça
-  de mamiferos na Caatinga
-author: "Mauricio Dalia"
-date: "24/10/2019"
-output:
-  html_document:
-    df_print: paged
-  pdf_document: default
-  word_document: default
----
-
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
 
 ## 1. Objetivo
 
@@ -47,11 +32,6 @@ da Caatinga e investigar quais delas possuem mais representantes caçados.
 [Projected losses of global mammals and birds ecological
 strategies](https://www.nature.com/articles/s41467-019-10284-z).
   Esse trabalho, compilou e analisou traços ecológicos de mamíferos e aves do mundo (15.484 espécies terrestres). As informações utilizadas como traços ecológicos foram: i) proporção de tipos alimentar; ii) proporção do uso do hábtat de forrageio; iii) massa corpórea'; iv) tamanho da ninhada; v) duração da geração. O tratamento e análise dos dados podem ser melhor vistos [aqui](https://www.nature.com/articles/s41467-019-10284-z), e trabalharemos com seus resultados.
-
-```{r pacote, echo = FALSE, include = FALSE, eval = TRUE}
-install.packages(DiagrammeR)
-library(DiagrammeR)
-```
 
 ## 3. Dados
   A lista de espécies de mamíferos da Caatinga [(Carmignotto, A. P. & Astúa, D., 2018)](https://link.springer.com/chapter/10.1007/978-3-319-68339-3_8), foi compilada e organizada em planilha do excel, da qual encontra-se disponível [AQUI](https://docs.google.com/spreadsheets/d/17r2wn1nD07B7LY8vvGQe_t0pxUcPSUO1Q0JnNlEZ-xQ/edit?usp=sharing).
