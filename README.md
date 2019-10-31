@@ -48,11 +48,13 @@ da Caatinga e investigar quais delas possuem mais representantes caçados.
 strategies](https://www.nature.com/articles/s41467-019-10284-z).
   Esse trabalho, compilou e analisou traços ecológicos de mamíferos e aves do mundo (15.484 espécies terrestres). As informações utilizadas como traços ecológicos foram: i) proporção de tipos alimentar; ii) proporção do uso do hábtat de forrageio; iii) massa corpórea'; iv) tamanho da ninhada; v) duração da geração. O tratamento e análise dos dados podem ser melhor vistos [aqui](https://www.nature.com/articles/s41467-019-10284-z), e trabalharemos com seus resultados.
 
-#### Fluxo da Investigação
 ```{r, echo=FALSE}
 library(DiagrammeR)
+```
 
-mermaid("
+#### Fluxo da Investigação
+```{r, echo=TALSE}
+mermaid
 graph LR
 A(Mamíferos da Caatinga)-->B(Mamíferos Caçados)
 B-->C{Estratégias Ecológicas Definidas}
@@ -75,10 +77,6 @@ G-- - Motivos de Caçada ---O[Baixo risco de extinção da estratégia]
     F
     G
     end
-    
-
-
-")
 ```
 
 ## 3. Dados
