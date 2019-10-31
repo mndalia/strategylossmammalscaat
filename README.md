@@ -53,33 +53,6 @@ install.packages(DiagrammeR)
 library(DiagrammeR)
 ```
 
-#### Fluxo da Investigação
-```mermaid
-
-graph LR
-A(Mamíferos da Caatinga)-->B(Mamíferos Caçados)
-B-->C{Estratégias Ecológicas Definidas}
-C-->D(Estrategia Rara, sp. Amplamente Distribuida)
-C-->E(Estrategia Comum, sp. Amplamente Distribuida)
-C-->F(Estrategia Rara, sp. Restritamente Distribuida)
-C-->G(Estrategia Comum, sp. Restritamente Distribuida)
-D-- + Motivos de Caçada ---H[Risco moderado de extinção da estratégia]
-D-- - Motivos de Caçada ---I[Baixo risco de extinção da estratégia]
-E-- + Motivos de Caçada ---J[Baixo risco de extinção da estratégia]
-E-- - Motivos de Caçada ---K[Nenhum risco de extinção da estratégia]
-F-- + Motivos de Caçada ---L[Muito Alto risco de extinção da estratégia]
-F-- - Motivos de Caçada ---M[Alto risco de extinção da estratégia]
-G-- + Motivos de Caçada ---N[Risco moderado de extinção da estratégia]
-G-- - Motivos de Caçada ---O[Baixo risco de extinção da estratégia]
-
- subgraph Possibilidades
-    D
-    E
-    F
-    G
-    end
-```
-
 ## 3. Dados
   A lista de espécies de mamíferos da Caatinga [(Carmignotto, A. P. & Astúa, D., 2018)](https://link.springer.com/chapter/10.1007/978-3-319-68339-3_8), foi compilada e organizada em planilha do excel, da qual encontra-se disponível [AQUI](https://docs.google.com/spreadsheets/d/17r2wn1nD07B7LY8vvGQe_t0pxUcPSUO1Q0JnNlEZ-xQ/edit?usp=sharing).
   Já a lista de espécies de mamíferos caçados [(Nóbrega Alves R. R. et. al., 2016)](http://ethnobioconservation.com/index.php/ebc/article/download/90/79), foi compilada e organizada em planilha do excel, encontra-se disponível [AQUI](https://docs.google.com/spreadsheets/d/1c3ATQ6x2KjyMuskkBMVJccAxi7KhJ71Uay_HqaW7eWs/edit?usp=sharing).
