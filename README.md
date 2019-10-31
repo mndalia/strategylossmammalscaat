@@ -53,8 +53,8 @@ library(DiagrammeR)
 ```
 
 #### Fluxo da Investigação
-```{r, echo=TALSE}
-mermaid
+```mermaid
+
 graph LR
 A(Mamíferos da Caatinga)-->B(Mamíferos Caçados)
 B-->C{Estratégias Ecológicas Definidas}
