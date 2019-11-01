@@ -1,4 +1,12 @@
-source(file = "R/03_trait_imputation.R")
+library(tidyverse)
+library(inspectdf)
+library(forcats)
+pacman::p_load(dplyr, plyr, readr, tibble, FD, ade4, cowplot,
+               mice, reshape2, tidyr, ks, hypervolume, alphahull,
+               purrr, TTR, plotrix, agricolae, psych)
+
+
+tr_mi <- readRDS("data/processed/tr_mi.rds")
 
 ### z-transformation ####
 
@@ -96,5 +104,28 @@ pcload_mi_d1_sc <- pcload_mi_d1 %>%
 
 
 
-# save principal component data
+
+
+# kernel density estimation
+pc_raw_mi_d1 <- pc_mi_d1 %>% 
+  # extract first two principal components
+  dplyr::select(., binomial, Comp.1_mean, Comp.2_mean) %>% 
+  tibble::column_to_rownames(var = "binomial")
+
+# optimal bandwidth estimation
+hpi_mi_d1 <- Hpi(x = pc_raw_mi_d1)
+
+# kernel density estimation   ---- 
+est_mi_d1 <- kde(x = pc_raw_mi_d1, H = hpi_mi_d1, compute.cont = TRUE)  
+
+den_mi_d1 <- list(est_mi_d1$eval.points[[1]], est_mi_d1$eval.points[[2]], est_mi_d1$estimate)
+names(den_mi_d1) <- c("x", "y", "z")
+dimnames(den_mi_d1$z) <- list(den_mi_d1$x, den_mi_d1$y)
+dcc_mi_d1 <- melt(den_mi_d1$z)
+
+write.csv(x = dcc_mi_d1, 
+          file = "data/processed/processed_pca_data.csv", 
+          row.names = FALSE)
+
 write.csv(pc_mi_d1, file = "data/processed/pc.csv", row.names = FALSE)
+write.csv(pcload_mi_d1_sc, file = "data/processed/pcload_mi_d1_sc.csv", row.names = FALSE)

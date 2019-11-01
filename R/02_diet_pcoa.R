@@ -1,9 +1,14 @@
-#abrindo pacotes ----
-if (!require("pacman")) install.packages("pacman")
-pacman::p_load(dplyr, plyr, readr, tibble, FD, ade4, cowplot, mice, reshape2, tidyr, ks, hypervolume, alphahull, purrr, TTR, plotrix, agricolae, psych)
+library(tidyverse)
+library(inspectdf)
+library(forcats)
+pacman::p_load(dplyr, plyr, readr, tibble, FD, ade4, cowplot,
+               mice, reshape2, tidyr, ks, hypervolume, alphahull,
+               purrr, TTR, plotrix, agricolae, psych)
+
 
 #abrindo dados ----
 dattraitcaat <- readr::read_csv("data/processed/processed_traits_mam_caat.csv")
+
 
 #selecionando dados ----
 diet_all <- dattraitcaat %>% 
@@ -74,11 +79,18 @@ pcoa_diet <- ggplot(pcomp_diet, aes(A1, A2)) +
             nudge_x = c(0.005, rep(0, 7), -0.009, 0)) +
   # add arrow labels
   labs(x = "PC1 (31.9%)", y = "PC2 (17.3%)") +
-  theme(panel.grid.major = element_blank(),
-        panel.grid.minor = element_blank(),
-        axis.text = element_text(colour = "black"),
-        legend.position = "none",
-        text = element_text(size = 20))
+  theme_classic()
 
 pcoa_diet
+
+ggsave(plot = pcoa_diet, 
+       filename = "output/figures/Fig_01_pca_diet.png",
+       width = 10, height = 8)
+
+
+write.csv(x = pcomp_diet, 
+          file = "data/processed/processed_pcomp_diet.csv", 
+          row.names = FALSE)
+
+
 

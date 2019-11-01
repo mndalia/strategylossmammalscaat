@@ -1,9 +1,21 @@
-source(file = "R/04_ztransform_pca.R")
+library(tidyverse)
+library(inspectdf)
+library(forcats)
+pacman::p_load(dplyr, plyr, readr, tibble, FD, ade4, cowplot,
+               mice, reshape2, tidyr, ks, hypervolume, alphahull,
+               purrr, TTR, plotrix, agricolae, psych)
+
+
+dcc_mi_d1 <- read.csv("data/processed/processed_pca_data.csv")
+datlisthunt <- read.csv("data/raw/mam_list_hunt.csv")
+pc_mi_d1 <- read.csv("data/processed/pc.csv")
+pcload_mi_d1_sc <- read.csv("data/processed/pcload_mi_d1_sc.csv")
+
 
 pc_mi_hunt <- plyr::join(pc_mi_d1, datlisthunt, type = "inner")
 
 # colour palette
-col_pal <- colorRampPalette(c("red", "yellow", "white"))(200)
+col_pal <- colorRampPalette(c("orange", "yellow", "white"))(200)
 
 # plot
 pca_plot_mi_d1 <- ggplot(dcc_mi_d1, aes(x = Var1, y = Var2)) +
@@ -11,9 +23,9 @@ pca_plot_mi_d1 <- ggplot(dcc_mi_d1, aes(x = Var1, y = Var2)) +
   geom_raster(aes(fill = value)) +
   scale_fill_gradientn(colours = rev(col_pal)) +
   # points for species
-  geom_point(data = pc_mi_d1, aes(x = Comp.1_mean, y = Comp.2_mean), size = 3,
-             alpha = 0.5, colour = "black") +
-  geom_point(data = pc_mi_hunt, aes(x = Comp.1_mean, y = Comp.2_mean), size = 0.9,
+  geom_point(data = pc_mi_d1, aes(x = Comp.1_mean, y = Comp.2_mean), size = 2.5,
+             alpha = 0.5, colour = "darkgrey") +
+  geom_point(data = pc_mi_hunt, aes(x = Comp.1_mean, y = Comp.2_mean), size = 0.7,
             alpha = 1, colour = "red") +
   # add arrows
   geom_segment(data = pcload_mi_d1_sc, aes(x = 0, y = 0, 
@@ -34,14 +46,14 @@ pca_plot_mi_d1 <- ggplot(dcc_mi_d1, aes(x = Var1, y = Var2)) +
   #retirando legenda
   guides(fill=FALSE) +
   # edit plot
-  theme_classic()
+  theme_classic(base_size = 13)
 
 # display plot
 pca_plot_mi_d1
 
 ggsave(plot = pca_plot_mi_d1, 
-       filename = "output/figures/Fig_01_pca.png",
+       filename = "output/figures/Fig_02_pca.png",
        width = 10, height = 8)
 
 
-?#### ---------------------------
+#### ---------------------------

@@ -1,5 +1,12 @@
+library(tidyverse)
+library(inspectdf)
+library(forcats)
+pacman::p_load(dplyr, plyr, readr, tibble, FD, ade4, cowplot,
+               mice, reshape2, tidyr, ks, hypervolume, alphahull,
+               purrr, TTR, plotrix, agricolae, psych)
 
-source(file = "R/02_diet_pcoa.R")
+dattraitcaat <- readr::read_csv("data/processed/processed_traits_mam_caat.csv")
+pcomp_diet <- readr::read_csv("data/processed/processed_pcomp_diet.csv")
 
 tr <- dplyr::select(dattraitcaat, -contains("diet")) %>% 
   # add PCoA diet data
@@ -17,7 +24,9 @@ tr_mam <- dplyr::rename(tr, binomial = sp)
 
 # load: t_pem_mam 
 t_pem_mam <- readRDS("data/raw/df_t_pem_mam.rds")
-# phylogenetic eigenvectors matched to binomialecies names - using mammal supertree from Fritz et al., 2009 "Geographical variation in predictors of mammalian extinction risk: big is bad, but only in the tropics"
+# phylogenetic eigenvectors matched to binomialecies names - 
+#using mammal supertree from Fritz et al., 2009 
+#"Geographical variation in predictors of mammalian extinction risk: big is bad, but only in the tropics"
 
 # join trait and phylogenetic data (use first ten eigenvectors - Penone et al., 2014)
 tr_mam <- dplyr::left_join(tr_mam, t_pem_mam, by = "binomial")
@@ -37,8 +46,8 @@ tr_mi<- lapply(1:25, function(x) {
     dplyr::select(binomial:diet_pc1)
 })
 
-# save: tr_mi_raw_mam
-saveRDS(tr_mi, "data/processed/df_tr_mi.rds")
+# save: tr_mi
+saveRDS(tr_mi, "data/processed/tr_mi.rds")
 
 
 

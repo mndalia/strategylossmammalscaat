@@ -1,160 +1,160 @@
 "sp","body_mass_median","litter_clutch_size","hab_breadth","diet_inv","diet_vend","diet_vect","diet_vfish","diet_vunk","diet_scav","diet_fruit","diet_nect","diet_seed","diet_planto"
-"Caluromys_philander",246.47,4.26,1,2,0,0,0,1,0,2,0,1,4
-"Cryptonanus_agricolai",18.9,NA,1,5,0,0,0,0,0,3,2,0,0
-"Didelphis_albiventris",1030.47,6.9,4,2,0,0,0,3,3,0,0,0,2
-"Didelphis_marsupialis",1134.75,6.645,4,2,0,0,0,3,3,0,0,0,2
-"Gracilinanus_agilis",22,11.75,1,5,0,0,0,0,0,3,2,0,0
-"Gracilinanus_microtarsus",29.3,9.7,1,5,0,0,0,0,0,3,2,0,0
-"Marmosa_demerarae",96,6.9675,1,9,0,0,0,0,0,1,0,0,0
-"Marmosa_murina",36.28,6.95,6,4,1,1,0,1,0,3,0,0,0
-"Marmosops_incanus",59.88,NA,2,5,0,0,0,0,0,5,0,0,0
-"Metachirus_nudicaudatus",375,4.435,4,3,2,2,0,1,0,2,0,0,0
-"Monodelphis_americana",19.5,NA,1,2,2,0,0,0,2,2,0,2,0
-"Monodelphis_domestica",93.45,8.145,5,2,2,0,0,0,2,2,0,2,0
-"Thylamys_karimii",24.88,NA,3,8,0,0,0,2,0,0,0,0,0
-"Dasypus_novemcinctus",3949.01,3.98,16,10,0,0,0,0,0,0,0,0,0
-"Dasypus_septemcinctus",1526.64,5.9925,3,10,0,0,0,0,0,0,0,0,0
-"Euphractus_sexcinctus",4782.89,1.74,14,5,0,0,0,0,0,0,0,0,5
-"Cabassous_tatouay",5349.95,NA,5,10,0,0,0,0,0,0,0,0,0
-"Cabassous_unicinctus",3987.97,1,7,10,0,0,0,0,0,0,0,0,0
-"Priodontes_maximus",45190,1.5,6,9,0,0,0,1,0,0,0,0,0
-"Tolypeutes_tricinctus",1465.72,0.93,2,8,0,0,0,0,0,2,0,0,0
-"Myrmecophaga_tridactyla",29531.83,1,11,10,0,0,0,0,0,0,0,0,0
-"Tamandua_tetradactyla",4800,1,9,10,0,0,0,0,0,0,0,0,0
-"Alouatta_caraya",5576.96,1.005,4,0,0,0,0,0,0,4,0,0,6
-"Alouatta_ululata",6361.288889,NA,2,0,0,0,0,0,0,4,0,0,6
-"Callithrix_jacchus",290.21,2.275,4,2,0,0,0,1,0,3,4,0,0
-"Callithrix_penicillata",339.98,2,5,2,0,0,0,1,0,3,4,0,0
-"Cebus_libidinosus",2687.21,1.05,NA,2,0,0,0,1,0,4,2,0,1
-"Cebus_xanthosternos",2687.21,1.05,NA,2,0,0,0,1,0,4,2,0,1
-"Callicebus_barbarabrownae",1050,1.01,2,2,0,0,0,0,0,5,0,0,3
-"Callicebus_melanochir",1370,1.01,1,2,0,0,0,0,0,5,0,0,3
-"Cavia_aperea",524.38,2.31,4,0,0,0,0,0,0,0,0,0,10
-"Galea_spixii",360.61,2.295,3,0,0,0,0,0,0,0,0,0,10
-"Hydrochoerus_hydrochaeris",48144.91,3.49,3,0,0,0,0,0,0,1,0,0,9
-"Kerodon_rupestris",800,1.52,2,0,0,0,0,0,0,0,0,0,10
-"Akodon_cursor",39.84,3,1,8,0,0,0,0,0,0,0,0,2
-"Calomys_expulsus",39.86,4.985,5,0,0,0,0,0,0,0,0,0,10
-"Euryoryzomys_russatus",60.5,NA,1,2,0,0,0,0,0,2,0,2,4
-"Holochilus_sciureus",120.42,4.06,3,1,0,0,0,0,0,0,0,0,9
-"Hylaeamys_megacephalus",55,3.87,1,2,0,0,0,0,0,2,0,2,4
-"Necromys_lasiurus",39.93,4.4175,3,7,0,0,0,0,0,0,0,0,3
-"Nectomys_rattus",248.8,4.5,8,3,0,2,2,0,0,0,0,0,3
-"Oecomys_catherinae",67.41,NA,3,0,0,0,0,0,0,5,0,5,0
-"Oligoryzomys_nigripes",20.5,3.5175,5,3,0,0,0,0,0,3,0,4,0
-"Oligoryzomys_rupestris",26.55990747,NA,3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Oligoryzomys_stramineus",25.259953735,NA,4,3,0,0,0,0,0,3,0,4,0
-"Oxymycterus_dasytrichus",75.39976634,2.765,4,9,0,0,0,0,0,0,0,0,1
-"Oxymycterus_delator",81.49,NA,1,9,0,0,0,0,0,0,0,0,1
-"Pseudoryzomys_simplex",45.2,NA,6,2,0,0,0,0,0,2,0,2,4
-"Rhipidomys_cariri",76.24098976,NA,4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Rhipidomys_macrurus",79.72,3.8,2,2,0,0,0,0,0,2,0,3,3
-"Rhipidomys_mastacalis",87.5,3.8,1,2,0,0,0,0,0,3,0,3,2
-"Wiedomys_cerradensis",46.7,NA,2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Wiedomys_pyrrhorhinos",46.7,3.8,3,5,0,0,0,0,0,0,0,5,0
-"Cuniculus_paca",8172.55,1.01,1,0,0,0,0,0,0,2,0,3,5
-"Dasyprocta_azarae",2976.81,NA,NA,1,0,0,0,0,0,4,0,0,5
-"Dasyprocta_prymnolopha",2900,1.5,1,1,0,0,0,0,0,4,0,0,5
-"Makalata_didelphoides",398.66,1.0825,1,0,0,0,0,0,0,5,0,5,0
-"Phyllomys_lamarum",215.19,NA,1,0,0,0,0,0,0,8,0,0,2
-"Thrichomys_apereoides",339,3.175,3,0,0,0,0,0,0,6,0,4,0
-"Thrichomys_inermis",339,3.15,3,0,0,0,0,0,0,6,0,4,0
-"Trinomys_yonenagae",238.33316665,NA,1,0,0,0,0,0,0,2,0,1,7
-"Coendou_prehensilis",4116.2,0.99,2,0,0,0,0,0,0,3,0,0,7
-"Peropteryx_kappleri",9.85,1,3,10,0,0,0,0,0,0,0,0,0
-"Peropteryx_macrotis",5.68,0.995,1,10,0,0,0,0,0,0,0,0,0
-"Peropteryx_trinitatis",4.19,1,2,10,0,0,0,0,0,0,0,0,0
-"Rhynchonycteris_naso",4.14,0.99,2,10,0,0,0,0,0,0,0,0,0
-"Saccopteryx_bilineata",7.9,0.9925,2,10,0,0,0,0,0,0,0,0,0
-"Saccopteryx_leptura",5.2325,NA,1,10,0,0,0,0,0,0,0,0,0
-"Furipterus_horrens",3.15,1,3,10,0,0,0,0,0,0,0,0,0
-"Cynomops_abrasus",35.39,0.98,1,10,0,0,0,0,0,0,0,0,0
-"Cynomops_greenhalli",15.87,0.99,2,10,0,0,0,0,0,0,0,0,0
-"Cynomops_planirostris",12.84,1,2,10,0,0,0,0,0,0,0,0,0
-"Eumops_auripendulus",28.49,0.985,2,10,0,0,0,0,0,0,0,0,0
-"Eumops_glaucinus",36.2,1.03,3,10,0,0,0,0,0,0,0,0,0
-"Eumops_perotis",51.13,0.995,3,10,0,0,0,0,0,0,0,0,0
-"Molossops_temminckii",5.86,0.985,1,10,0,0,0,0,0,0,0,0,0
-"Molossus_molossus",13.7,0.99,1,10,0,0,0,0,0,0,0,0,0
-"Molossus_pretiosus",98,0.98,4,10,0,0,0,0,0,0,0,0,0
-"Molossus_rufus",29.044,NA,4,10,0,0,0,0,0,0,0,0,0
-"Nyctinomops_aurispinosus",18.43,1,4,10,0,0,0,0,0,0,0,0,0
-"Nyctinomops_laticaudatus",13.12,0.9925,4,10,0,0,0,0,0,0,0,0,0
-"Nyctinomops_macrotis",18.4,0.9925,3,10,0,0,0,0,0,0,0,0,0
-"Promops_nasutus",15.5,NA,NA,10,0,0,0,0,0,0,0,0,0
-"Tadarida_brasiliensis",12.5,1.0825,7,10,0,0,0,0,0,0,0,0,0
-"Pteronotus_gymnonotus",13.6,0.98,5,10,0,0,0,0,0,0,0,0,0
-"Pteronotus_parnellii",19.59,0.9925,3,10,0,0,0,0,0,0,0,0,0
-"Pteronotus_personatus",8.71,0.98,4,10,0,0,0,0,0,0,0,0,0
-"Noctilio_leporinus",44,1,6,5,0,0,5,0,0,0,0,0,0
-"Carollia_brevicauda",14.625,0.98,4,0,0,0,0,0,0,10,0,0,0
-"Carollia_perspicillata",18,1,4,0,0,0,0,0,0,10,0,0,0
-"Desmodus_rotundus",33.16,1,4,0,10,0,0,0,0,0,0,0,0
-"Diphylla_ecaudata",28.11,0.995,6,0,10,0,0,0,0,0,0,0,0
-"Anoura_caudifer",10.81,0.9925,3,3,0,0,0,0,0,3,4,0,0
-"Anoura_geoffroyi",15.15,0.995,7,3,0,0,0,0,0,3,4,0,0
-"Glossophaga_soricina",9.97,1,7,4,0,0,0,0,0,3,3,0,0
-"Lionycteris_spurrelli",8.85,0.98,6,3,0,0,0,0,0,6,1,0,0
-"Lonchophylla_dekeyseri",11.8,NA,2,4,0,0,0,0,0,3,3,0,0
-"Lonchophylla_mordax",21.56,0.98,4,4,0,0,0,0,0,3,3,0,0
-"Xeronycteris_vieirai",22.96761263,NA,2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Chrotopterus_auritus",78.26,0.9925,2,3,0,2,2,0,0,3,0,0,0
-"Lonchorhina_aurita",15.38,0.98,3,10,0,0,0,0,0,0,0,0,0
-"Lophostoma_brasiliense",9.76,0.98,4,9,0,0,0,0,0,1,0,0,0
-"Lophostoma_carrikeri",22.35,NA,2,9,0,0,0,0,0,1,0,0,0
-"Lophostoma_silvicolum",32.29,0.99,2,9,0,0,0,0,0,1,0,0,0
-"Macrophyllum_macrophyllum",8.02,1,1,10,0,0,0,0,0,0,0,0,0
-"Micronycteris_megalotis",6.4,0.98,4,8,0,0,0,0,0,2,0,0,0
-"Micronycteris_minuta",6.9,0.99,3,8,0,0,0,0,0,2,0,0,0
-"Micronycteris_sanborni",7.39,NA,2,8,0,0,0,0,0,2,0,0,0
-"Micronycteris_schmidtorum",7.73,NA,2,8,0,0,0,0,0,2,0,0,0
-"Mimon_bennettii",12.9,1,4,3,0,2,2,0,0,3,0,0,0
-"Mimon_crenulatum",13.91,0.9925,5,5,0,0,0,0,0,5,0,0,0
-"Phylloderma_stenops",55.82,0.98,4,1,0,0,0,0,0,2,1,6,0
-"Phyllostomus_discolor",36.7,0.995,7,3,0,0,0,0,0,4,3,0,0
-"Phyllostomus_elongatus",40.43,0.9875,3,7,0,1,0,0,0,1,1,0,0
-"Phyllostomus_hastatus",87.21,0.995,7,4,0,5,0,0,0,1,0,0,0
-"Tonatia_bidens",27.55,0.98,1,9,0,0,0,0,0,1,0,0,0
-"Tonatia_saurophila",27.7,0.98,3,9,0,0,0,0,0,1,0,0,0
-"Trachops_cirrhosus",36.9,0.99,4,5,0,4,0,0,0,1,0,0,0
-"Vampyrum_spectrum",171.61,1,2,1,8,0,0,0,0,1,0,0,0
-"Artibeus_cinereus",12.7,0.99,NA,1,0,0,0,0,0,8,1,0,0
-"Artibeus_concolor",19.65,NA,2,1,0,0,0,0,0,8,1,0,0
-"Artibeus_lituratus",59.3,1,4,1,0,0,0,0,0,8,1,0,0
-"Artibeus_obscurus",35.91,0.99,3,1,0,0,0,0,0,8,1,0,0
-"Artibeus_planirostris",42.17,1,3,1,0,0,0,0,0,8,1,0,0
-"Chiroderma_villosum",23.81,0.99,1,0,0,0,0,0,0,10,0,0,0
-"Platyrrhinus_lineatus",24.34,0.995,2,1,0,0,0,0,0,9,0,0,0
-"Pygoderma_bilabiatum",18.5,0.985,2,0,0,0,0,0,0,10,0,0,0
-"Sturnira_lilium",20,0.995,3,0,0,0,0,0,0,10,0,0,0
-"Sturnira_tildae",24.04,0.985,1,0,0,0,0,0,0,10,0,0,0
-"Uroderma_bilobatum",16.28,0.995,3,1,0,0,0,0,0,8,1,0,0
-"Uroderma_magnirostrum",17.3,0.98,1,1,0,0,0,0,0,8,1,0,0
-"Myotis_albescens",5.69,0.985,3,10,0,0,0,0,0,0,0,0,0
-"Myotis_nigricans",4.24,1,5,10,0,0,0,0,0,0,0,0,0
-"Myotis_riparius",5.55,0.98,2,10,0,0,0,0,0,0,0,0,0
-"Myotis_ruber",4.99,NA,1,10,0,0,0,0,0,0,0,0,0
-"Eptesicus_brasiliensis",9.2,1.46,2,10,0,0,0,0,0,0,0,0,0
-"Eptesicus_furinalis",7.7,1.86,3,10,0,0,0,0,0,0,0,0,0
-"Histiotus_velatus",11.26,NA,1,10,0,0,0,0,0,0,0,0,0
-"Lasiurus_blossevillii",12.33,3.06,6,10,0,0,0,0,0,0,0,0,0
-"Lasiurus_ega",12.2,2.105,1,10,0,0,0,0,0,0,0,0,0
-"Lasiurus_egregius",17.41,NA,1,10,0,0,0,0,0,0,0,0,0
-"Rhogeessa_hussoni",4.2266666665,NA,1,10,0,0,0,0,0,0,0,0,0
-"Cerdocyon_thous",5741.66,3.545,13,5,0,0,0,4,1,0,0,0,0
-"Speothos_venaticus",6000,3.965,9,0,10,0,0,0,0,0,0,0,0
-"Leopardus_pardalis",11880,1.66,7,0,7,2,1,0,0,0,0,0,0
-"Leopardus_tigrinus",2250,1.5,3,0,10,0,0,0,0,0,0,0,0
-"Leopardus_wiedii",3270.81,1.5,5,0,8,0,0,0,0,2,0,0,0
-"Puma_concolor",51600.04,2.76,18,0,10,0,0,0,0,0,0,0,0
-"Panthera_onca",83943.09,1.98,10,0,8,1,1,0,0,0,0,0,0
-"Lontra_longicaudis",6554.97,3.3925,12,1,0,0,8,1,0,0,0,0,0
-"Eira_barbara",4134.99,2.07,5,0,9,0,0,0,0,1,0,0,0
-"Galictis_cuja",1000,3.5,4,2,3,2,0,1,0,2,0,0,0
-"Nasua_nasua",3793.85,3.75,3,1,2,0,0,0,0,7,0,0,0
-"Procyon_cancrivorus",6931.72,2.685,5,5,0,1,2,0,0,1,0,1,0
-"Tapirus_terrestris",207500.91,1,11,0,0,0,0,0,0,0,0,0,10
-"Mazama_americana",22799.75,1.22,1,0,0,0,0,0,0,0,0,2,8
-"Mazama_gouazoubira",16633.17,1,2,0,0,0,0,0,0,3,0,2,5
-"Pecari_tajacu",21133.69,1.69,12,1,0,2,0,0,0,1,0,0,6
-"Tayassu_pecari",31798.71,2,10,1,0,0,0,1,0,3,0,3,2
+"Caluromys philander",246.47,4.26,1,2,0,0,0,1,0,2,0,1,4
+"Cryptonanus agricolai",18.9,NA,1,5,0,0,0,0,0,3,2,0,0
+"Didelphis albiventris",1030.47,6.9,4,2,0,0,0,3,3,0,0,0,2
+"Didelphis marsupialis",1134.75,6.645,4,2,0,0,0,3,3,0,0,0,2
+"Gracilinanus agilis",22,11.75,1,5,0,0,0,0,0,3,2,0,0
+"Gracilinanus microtarsus",29.3,9.7,1,5,0,0,0,0,0,3,2,0,0
+"Marmosa demerarae",96,6.9675,1,9,0,0,0,0,0,1,0,0,0
+"Marmosa murina",36.28,6.95,6,4,1,1,0,1,0,3,0,0,0
+"Marmosops incanus",59.88,NA,2,5,0,0,0,0,0,5,0,0,0
+"Metachirus nudicaudatus",375,4.435,4,3,2,2,0,1,0,2,0,0,0
+"Monodelphis americana",19.5,NA,1,2,2,0,0,0,2,2,0,2,0
+"Monodelphis domestica",93.45,8.145,5,2,2,0,0,0,2,2,0,2,0
+"Thylamys karimii",24.88,NA,3,8,0,0,0,2,0,0,0,0,0
+"Dasypus novemcinctus",3949.01,3.98,16,10,0,0,0,0,0,0,0,0,0
+"Dasypus septemcinctus",1526.64,5.9925,3,10,0,0,0,0,0,0,0,0,0
+"Euphractus sexcinctus",4782.89,1.74,14,5,0,0,0,0,0,0,0,0,5
+"Cabassous tatouay",5349.95,NA,5,10,0,0,0,0,0,0,0,0,0
+"Cabassous unicinctus",3987.97,1,7,10,0,0,0,0,0,0,0,0,0
+"Priodontes maximus",45190,1.5,6,9,0,0,0,1,0,0,0,0,0
+"Tolypeutes tricinctus",1465.72,0.93,2,8,0,0,0,0,0,2,0,0,0
+"Myrmecophaga tridactyla",29531.83,1,11,10,0,0,0,0,0,0,0,0,0
+"Tamandua tetradactyla",4800,1,9,10,0,0,0,0,0,0,0,0,0
+"Alouatta caraya",5576.96,1.005,4,0,0,0,0,0,0,4,0,0,6
+"Alouatta ululata",6361.288889,NA,2,0,0,0,0,0,0,4,0,0,6
+"Callithrix jacchus",290.21,2.275,4,2,0,0,0,1,0,3,4,0,0
+"Callithrix penicillata",339.98,2,5,2,0,0,0,1,0,3,4,0,0
+"Cebus libidinosus",2687.21,1.05,NA,2,0,0,0,1,0,4,2,0,1
+"Cebus xanthosternos",2687.21,1.05,NA,2,0,0,0,1,0,4,2,0,1
+"Callicebus barbarabrownae",1050,1.01,2,2,0,0,0,0,0,5,0,0,3
+"Callicebus melanochir",1370,1.01,1,2,0,0,0,0,0,5,0,0,3
+"Cavia aperea",524.38,2.31,4,0,0,0,0,0,0,0,0,0,10
+"Galea spixii",360.61,2.295,3,0,0,0,0,0,0,0,0,0,10
+"Hydrochoerus hydrochaeris",48144.91,3.49,3,0,0,0,0,0,0,1,0,0,9
+"Kerodon rupestris",800,1.52,2,0,0,0,0,0,0,0,0,0,10
+"Akodon cursor",39.84,3,1,8,0,0,0,0,0,0,0,0,2
+"Calomys expulsus",39.86,4.985,5,0,0,0,0,0,0,0,0,0,10
+"Euryoryzomys russatus",60.5,NA,1,2,0,0,0,0,0,2,0,2,4
+"Holochilus sciureus",120.42,4.06,3,1,0,0,0,0,0,0,0,0,9
+"Hylaeamys megacephalus",55,3.87,1,2,0,0,0,0,0,2,0,2,4
+"Necromys lasiurus",39.93,4.4175,3,7,0,0,0,0,0,0,0,0,3
+"Nectomys rattus",248.8,4.5,8,3,0,2,2,0,0,0,0,0,3
+"Oecomys catherinae",67.41,NA,3,0,0,0,0,0,0,5,0,5,0
+"Oligoryzomys nigripes",20.5,3.5175,5,3,0,0,0,0,0,3,0,4,0
+"Oligoryzomys rupestris",26.55990747,NA,3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Oligoryzomys stramineus",25.259953735,NA,4,3,0,0,0,0,0,3,0,4,0
+"Oxymycterus dasytrichus",75.39976634,2.765,4,9,0,0,0,0,0,0,0,0,1
+"Oxymycterus delator",81.49,NA,1,9,0,0,0,0,0,0,0,0,1
+"Pseudoryzomys simplex",45.2,NA,6,2,0,0,0,0,0,2,0,2,4
+"Rhipidomys cariri",76.24098976,NA,4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Rhipidomys macrurus",79.72,3.8,2,2,0,0,0,0,0,2,0,3,3
+"Rhipidomys mastacalis",87.5,3.8,1,2,0,0,0,0,0,3,0,3,2
+"Wiedomys cerradensis",46.7,NA,2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Wiedomys pyrrhorhinos",46.7,3.8,3,5,0,0,0,0,0,0,0,5,0
+"Cuniculus paca",8172.55,1.01,1,0,0,0,0,0,0,2,0,3,5
+"Dasyprocta azarae",2976.81,NA,NA,1,0,0,0,0,0,4,0,0,5
+"Dasyprocta prymnolopha",2900,1.5,1,1,0,0,0,0,0,4,0,0,5
+"Makalata didelphoides",398.66,1.0825,1,0,0,0,0,0,0,5,0,5,0
+"Phyllomys lamarum",215.19,NA,1,0,0,0,0,0,0,8,0,0,2
+"Thrichomys apereoides",339,3.175,3,0,0,0,0,0,0,6,0,4,0
+"Thrichomys inermis",339,3.15,3,0,0,0,0,0,0,6,0,4,0
+"Trinomys yonenagae",238.33316665,NA,1,0,0,0,0,0,0,2,0,1,7
+"Coendou prehensilis",4116.2,0.99,2,0,0,0,0,0,0,3,0,0,7
+"Peropteryx kappleri",9.85,1,3,10,0,0,0,0,0,0,0,0,0
+"Peropteryx macrotis",5.68,0.995,1,10,0,0,0,0,0,0,0,0,0
+"Peropteryx trinitatis",4.19,1,2,10,0,0,0,0,0,0,0,0,0
+"Rhynchonycteris naso",4.14,0.99,2,10,0,0,0,0,0,0,0,0,0
+"Saccopteryx bilineata",7.9,0.9925,2,10,0,0,0,0,0,0,0,0,0
+"Saccopteryx leptura",5.2325,NA,1,10,0,0,0,0,0,0,0,0,0
+"Furipterus horrens",3.15,1,3,10,0,0,0,0,0,0,0,0,0
+"Cynomops abrasus",35.39,0.98,1,10,0,0,0,0,0,0,0,0,0
+"Cynomops greenhalli",15.87,0.99,2,10,0,0,0,0,0,0,0,0,0
+"Cynomops planirostris",12.84,1,2,10,0,0,0,0,0,0,0,0,0
+"Eumops auripendulus",28.49,0.985,2,10,0,0,0,0,0,0,0,0,0
+"Eumops glaucinus",36.2,1.03,3,10,0,0,0,0,0,0,0,0,0
+"Eumops perotis",51.13,0.995,3,10,0,0,0,0,0,0,0,0,0
+"Molossops temminckii",5.86,0.985,1,10,0,0,0,0,0,0,0,0,0
+"Molossus molossus",13.7,0.99,1,10,0,0,0,0,0,0,0,0,0
+"Molossus pretiosus",98,0.98,4,10,0,0,0,0,0,0,0,0,0
+"Molossus rufus",29.044,NA,4,10,0,0,0,0,0,0,0,0,0
+"Nyctinomops aurispinosus",18.43,1,4,10,0,0,0,0,0,0,0,0,0
+"Nyctinomops laticaudatus",13.12,0.9925,4,10,0,0,0,0,0,0,0,0,0
+"Nyctinomops macrotis",18.4,0.9925,3,10,0,0,0,0,0,0,0,0,0
+"Promops nasutus",15.5,NA,NA,10,0,0,0,0,0,0,0,0,0
+"Tadarida brasiliensis",12.5,1.0825,7,10,0,0,0,0,0,0,0,0,0
+"Pteronotus gymnonotus",13.6,0.98,5,10,0,0,0,0,0,0,0,0,0
+"Pteronotus parnellii",19.59,0.9925,3,10,0,0,0,0,0,0,0,0,0
+"Pteronotus personatus",8.71,0.98,4,10,0,0,0,0,0,0,0,0,0
+"Noctilio leporinus",44,1,6,5,0,0,5,0,0,0,0,0,0
+"Carollia brevicauda",14.625,0.98,4,0,0,0,0,0,0,10,0,0,0
+"Carollia perspicillata",18,1,4,0,0,0,0,0,0,10,0,0,0
+"Desmodus rotundus",33.16,1,4,0,10,0,0,0,0,0,0,0,0
+"Diphylla ecaudata",28.11,0.995,6,0,10,0,0,0,0,0,0,0,0
+"Anoura caudifer",10.81,0.9925,3,3,0,0,0,0,0,3,4,0,0
+"Anoura geoffroyi",15.15,0.995,7,3,0,0,0,0,0,3,4,0,0
+"Glossophaga soricina",9.97,1,7,4,0,0,0,0,0,3,3,0,0
+"Lionycteris spurrelli",8.85,0.98,6,3,0,0,0,0,0,6,1,0,0
+"Lonchophylla dekeyseri",11.8,NA,2,4,0,0,0,0,0,3,3,0,0
+"Lonchophylla mordax",21.56,0.98,4,4,0,0,0,0,0,3,3,0,0
+"Xeronycteris vieirai",22.96761263,NA,2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Chrotopterus auritus",78.26,0.9925,2,3,0,2,2,0,0,3,0,0,0
+"Lonchorhina aurita",15.38,0.98,3,10,0,0,0,0,0,0,0,0,0
+"Lophostoma brasiliense",9.76,0.98,4,9,0,0,0,0,0,1,0,0,0
+"Lophostoma carrikeri",22.35,NA,2,9,0,0,0,0,0,1,0,0,0
+"Lophostoma silvicolum",32.29,0.99,2,9,0,0,0,0,0,1,0,0,0
+"Macrophyllum macrophyllum",8.02,1,1,10,0,0,0,0,0,0,0,0,0
+"Micronycteris megalotis",6.4,0.98,4,8,0,0,0,0,0,2,0,0,0
+"Micronycteris minuta",6.9,0.99,3,8,0,0,0,0,0,2,0,0,0
+"Micronycteris sanborni",7.39,NA,2,8,0,0,0,0,0,2,0,0,0
+"Micronycteris schmidtorum",7.73,NA,2,8,0,0,0,0,0,2,0,0,0
+"Mimon bennettii",12.9,1,4,3,0,2,2,0,0,3,0,0,0
+"Mimon crenulatum",13.91,0.9925,5,5,0,0,0,0,0,5,0,0,0
+"Phylloderma stenops",55.82,0.98,4,1,0,0,0,0,0,2,1,6,0
+"Phyllostomus discolor",36.7,0.995,7,3,0,0,0,0,0,4,3,0,0
+"Phyllostomus elongatus",40.43,0.9875,3,7,0,1,0,0,0,1,1,0,0
+"Phyllostomus hastatus",87.21,0.995,7,4,0,5,0,0,0,1,0,0,0
+"Tonatia bidens",27.55,0.98,1,9,0,0,0,0,0,1,0,0,0
+"Tonatia saurophila",27.7,0.98,3,9,0,0,0,0,0,1,0,0,0
+"Trachops cirrhosus",36.9,0.99,4,5,0,4,0,0,0,1,0,0,0
+"Vampyrum spectrum",171.61,1,2,1,8,0,0,0,0,1,0,0,0
+"Artibeus cinereus",12.7,0.99,NA,1,0,0,0,0,0,8,1,0,0
+"Artibeus concolor",19.65,NA,2,1,0,0,0,0,0,8,1,0,0
+"Artibeus lituratus",59.3,1,4,1,0,0,0,0,0,8,1,0,0
+"Artibeus obscurus",35.91,0.99,3,1,0,0,0,0,0,8,1,0,0
+"Artibeus planirostris",42.17,1,3,1,0,0,0,0,0,8,1,0,0
+"Chiroderma villosum",23.81,0.99,1,0,0,0,0,0,0,10,0,0,0
+"Platyrrhinus lineatus",24.34,0.995,2,1,0,0,0,0,0,9,0,0,0
+"Pygoderma bilabiatum",18.5,0.985,2,0,0,0,0,0,0,10,0,0,0
+"Sturnira lilium",20,0.995,3,0,0,0,0,0,0,10,0,0,0
+"Sturnira tildae",24.04,0.985,1,0,0,0,0,0,0,10,0,0,0
+"Uroderma bilobatum",16.28,0.995,3,1,0,0,0,0,0,8,1,0,0
+"Uroderma magnirostrum",17.3,0.98,1,1,0,0,0,0,0,8,1,0,0
+"Myotis albescens",5.69,0.985,3,10,0,0,0,0,0,0,0,0,0
+"Myotis nigricans",4.24,1,5,10,0,0,0,0,0,0,0,0,0
+"Myotis riparius",5.55,0.98,2,10,0,0,0,0,0,0,0,0,0
+"Myotis ruber",4.99,NA,1,10,0,0,0,0,0,0,0,0,0
+"Eptesicus brasiliensis",9.2,1.46,2,10,0,0,0,0,0,0,0,0,0
+"Eptesicus furinalis",7.7,1.86,3,10,0,0,0,0,0,0,0,0,0
+"Histiotus velatus",11.26,NA,1,10,0,0,0,0,0,0,0,0,0
+"Lasiurus blossevillii",12.33,3.06,6,10,0,0,0,0,0,0,0,0,0
+"Lasiurus ega",12.2,2.105,1,10,0,0,0,0,0,0,0,0,0
+"Lasiurus egregius",17.41,NA,1,10,0,0,0,0,0,0,0,0,0
+"Rhogeessa hussoni",4.2266666665,NA,1,10,0,0,0,0,0,0,0,0,0
+"Cerdocyon thous",5741.66,3.545,13,5,0,0,0,4,1,0,0,0,0
+"Speothos venaticus",6000,3.965,9,0,10,0,0,0,0,0,0,0,0
+"Leopardus pardalis",11880,1.66,7,0,7,2,1,0,0,0,0,0,0
+"Leopardus tigrinus",2250,1.5,3,0,10,0,0,0,0,0,0,0,0
+"Leopardus wiedii",3270.81,1.5,5,0,8,0,0,0,0,2,0,0,0
+"Puma concolor",51600.04,2.76,18,0,10,0,0,0,0,0,0,0,0
+"Panthera onca",83943.09,1.98,10,0,8,1,1,0,0,0,0,0,0
+"Lontra longicaudis",6554.97,3.3925,12,1,0,0,8,1,0,0,0,0,0
+"Eira barbara",4134.99,2.07,5,0,9,0,0,0,0,1,0,0,0
+"Galictis cuja",1000,3.5,4,2,3,2,0,1,0,2,0,0,0
+"Nasua nasua",3793.85,3.75,3,1,2,0,0,0,0,7,0,0,0
+"Procyon cancrivorus",6931.72,2.685,5,5,0,1,2,0,0,1,0,1,0
+"Tapirus terrestris",207500.91,1,11,0,0,0,0,0,0,0,0,0,10
+"Mazama americana",22799.75,1.22,1,0,0,0,0,0,0,0,0,2,8
+"Mazama gouazoubira",16633.17,1,2,0,0,0,0,0,0,3,0,2,5
+"Pecari tajacu",21133.69,1.69,12,1,0,2,0,0,0,1,0,0,6
+"Tayassu pecari",31798.71,2,10,1,0,0,0,1,0,3,0,3,2

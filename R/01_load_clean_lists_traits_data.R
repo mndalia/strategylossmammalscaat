@@ -1,14 +1,20 @@
 # Script to load and clean raw data set 
-# Mauricio Dalia
-# Last update:
-# Source of the original dataset: 
 
 # Start----
+
 # Packages ----------------------------------------------------------------
+install.packages("tidyverse")
+install.packages("inspectdf")
+install.packages("forcats")
+if (!require("pacman")) install.packages("pacman")
+
 library(tidyverse)
 library(inspectdf)
 library(forcats)
-library(plyr)
+pacman::p_load(dplyr, plyr, readr, tibble, FD, ade4, cowplot,
+               mice, reshape2, tidyr, ks, hypervolume, alphahull,
+               purrr, TTR, plotrix, agricolae, psych)
+
 
 #Carregando os dados----
 #Mamiferos da Caatinga----
@@ -48,4 +54,7 @@ dattraitcaat <- plyr::join(datlistmam_p, dattraits_p,
 write.csv(x = dattraitcaat, 
           file = "data/processed/processed_traits_mam_caat.csv", 
           row.names = FALSE)
+
+#dados filogeneticos
+t_pem_mam <- readRDS("data/raw/df_t_pem_mam.rds")
 
